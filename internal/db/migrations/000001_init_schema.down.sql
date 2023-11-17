@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS icon;
+DROP TABLE IF EXISTS excerpt_tag;
+DROP TABLE IF EXISTS tag;
+DROP TABLE IF EXISTS excerpt;
+DROP TABLE IF EXISTS desert_figure;
+DROP TABLE IF EXISTS "user";
+DROP TYPE IF EXISTS excerpt_type;
+DROP TYPE IF EXISTS desert_figure_type;
