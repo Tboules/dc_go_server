@@ -19,4 +19,7 @@ migrateup:
 migratedown:
 	migrate -path internal/db/migrations -database "postgresql://root:secret@localhost:5432/desert_collections?sslmode=disable" -verbose down
 
-.PHONY: run build postgres createdb deletedb migrateup migratedown
+sqlc:
+	sqlc generate
+
+.PHONY: run build postgres createdb deletedb migrateup migratedown sqlc
